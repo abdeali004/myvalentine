@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'LucySaid';
+    src: url('../fonts/LucySaid.ttf') format('truetype');
+  }
+
+@font-face {
+  font-family: 'BeautifulDream';
+  src: url('../fonts/BeautifulDream.otf') format('truetype');
+}
+@font-face {
+  font-family: 'ComicNeue';
+  src: url('../fonts/ComicNeue-Regular.ttf') format('truetype');
+}
+
+.lucy-said-font {
+  font-family: 'LucySaid', sans-serif;
+}
+
+.beautiful-dream-font {
+  font-family: 'BeautifulDream', sans-serif;
+}
+
+.comic-neue-font {
+  font-family: 'ComicNeue', sans-serif;
+}
+ 
