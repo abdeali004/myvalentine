@@ -13,16 +13,24 @@ const playButton = document.getElementById('play-sound');
         });
 
 const images = [
-	"https://media.tenor.com/A0zSm8XszmUAAAAj/bubu-dudu-sseeyall.gif",
-	"https://media.tenor.com/HVAiKTa_5XoAAAAM/good-morning.gif",
-	"https://media.tenor.com/BgdWDiBSd0oAAAAM/bubu-dudu-beach-party.gif",
-	"https://media.tenor.com/YeALWQcVFpEAAAAj/bubu-dudu-rose-dudu-propose.gif",
-	"https://media.tenor.com/pmB6eX_aMQ4AAAAj/bubu-dudu-sseeyall.gif",
-	"https://media.tenor.com/5IwZW7QpyoYAAAAM/love-bubu-dudu.gif"
+	"static/images/mirror/default-mirror.png",
+	"static/gifs/mirror/mirror1.gif",
+	"static/images/mirror/mirror1.png",
+	"static/gifs/mirror/mirror2.gif",
+	"static/images/mirror/mirror2.png",
+	"static/gifs/mirror/mirror3.gif",
+	"static/images/mirror/mirror3.png",
+	"static/gifs/mirror/mirror4.gif",
+	"static/images/mirror/mirror4.png",
+	"static/gifs/mirror/mirror5.gif",
+	"static/images/mirror/mirror5.png",
+	"static/gifs/mirror/mirror6.gif",
+	"static/images/mirror/mirror6.png",
+	"static/gifs/mirror/mirror7.gif",
 ];
 
 document.addEventListener('DOMContentLoaded', function() {
-	let current = -1;
+	let current = 0;
 	const mirrorContent = document.getElementById('mirror-content');
 
 	mirrorContent.addEventListener('click', function() {
