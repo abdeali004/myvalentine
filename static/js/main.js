@@ -13,7 +13,7 @@ function navigate(page) {
 function launchMirrorPage() {
     let current_no_button = document.getElementById('normal-button-no') == null ? document.getElementById('movable-button-no') : document.getElementById('normal-button-no');
     current_no_button.style.display = "none";
-    document.getElementById("normal-button-yes").innerText = "Special Room...";
+    document.getElementById("normal-button-yes").innerText = "Mirror Room...";
     document.getElementById("normal-button-yes").onclick = function() {
         navigate("mirror");
     };
