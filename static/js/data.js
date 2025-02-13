@@ -21,7 +21,7 @@ const data = {
     },
     "2-1" : {
         "gif-img" : "static/gifs/2-1.gif",
-        "question" : "Hurrahhhh!!! you will be my Valentine? 💖",
+        "question" : "Hurrahhhh!!! you will be my Valentine. 💖",
         "movable-button" : false,
         "mirror-page" : true
     }
